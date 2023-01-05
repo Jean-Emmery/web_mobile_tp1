@@ -2,22 +2,22 @@
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "HYNARI",
   "short_name": "HYNARI",
-  "start_url": "/",
   "display": "standalone",
   "background_color": "#fff",
   "description": "A readable Hacker News app.",
   "theme_color": "grey",
+  "scope": "/tp1/",
   "icons": [
     {
       "src": "assets/img/logo.png",
       "sizes": "48x48",
       "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "related_applications": [
-    {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
-    }
-  ]
+  "start_url": "jean-emmery.github.io/web_mobile_tp1"
 }
