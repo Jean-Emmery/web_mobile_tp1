@@ -6,14 +6,14 @@
   "background_color": "#fff",
   "description": "A readable Hacker News app.",
   "theme_color": "grey",
-  "scope": "https://jean-emmery.github.io/web_mobile_tp1",
+  "scope": "https://jean-emmery.github.io/web_mobile_tp1/",
+  "start_url": "https://jean-emmery.github.io/web_mobile_tp1/",
   "icons": [
     {
-      "src": "assets/img/logo.png",
+      "src": "https://jean-emmery.github.io/web_mobile_tp1/logo.png",
       "sizes": "751x769",
       "type": "image/png",
       "purpose": "any"
     }
-  ],
-  "start_url": "https://jean-emmery.github.io/web_mobile_tp1"
+  ]
 }
