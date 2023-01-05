@@ -10,8 +10,7 @@ self.addEventListener('install', (event) => {
       '/web_mobile_tp1/index.html',
       '/web_mobile_tp1/index.css',
       '/web_mobile_tp1/app.js',
-      '/web_mobile_tp1/cat-48.png',
-      '/web_mobile_tp1/cat.png',
+      '/web_mobile_tp1/logo.png',
     ])
   );
 });
