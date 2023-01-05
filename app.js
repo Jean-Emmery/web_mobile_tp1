@@ -20,15 +20,3 @@ const registerServiceWorker = async () => {
     }
   }
 };
-
-function updateOnlineStatus() {
-  const status = document.getElementById('status');
-
-  var condition = navigator.onLine ? 'online' : 'offline';
-
-  status.className = condition;
-  status.innerHTML = condition.toUpperCase();
-}
-updateOnlineStatus();
-window.addEventListener('online', updateOnlineStatus);
-window.addEventListener('offline', updateOnlineStatus);
