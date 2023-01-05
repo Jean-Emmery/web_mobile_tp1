@@ -20,3 +20,14 @@ const registerServiceWorker = async () => {
     }
   }
 };
+
+function updateOnlineStatus() {
+  let condition = navigator.onLine ? 'online' : 'offline';
+
+  if (condition === 'online') {
+    console.log('Online status');
+  } else if (condition === 'offline') {
+    console.log('Offline status');
+  }
+}
+updateOnlineStatus();
