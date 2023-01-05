@@ -10,13 +10,9 @@
   "icons": [
     {
       "src": "assets/img/logo.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/img/logo.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "sizes": "751x769",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "start_url": "jean-emmery.github.io/web_mobile_tp1"
