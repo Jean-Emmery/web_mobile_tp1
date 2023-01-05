@@ -1,19 +1,17 @@
 {
-  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "HYNARI",
   "short_name": "HYNARI",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "A readable Hacker News app.",
-  "theme_color": "grey",
-  "start_url": "https://jean-emmery.github.io/web_mobile_tp1/",
-  "id": "PWA",
+  "name": "Web App Manifest",
+  "theme_color": "#eb5252",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "https://jean-emmery.github.io/web_mobile_tp1/",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "https://jean-emmery.github.io/web_mobile_tp1/logo.png",
-      "sizes": "751x769",
+      "src": "logo.png",
       "type": "image/png",
-      "purpose": "any"
+      "sizes": "751x769"
     }
-  ]
+  ],
+  "start_url": "https://jean-emmery.github.io/web_mobile_tp1/"
 }

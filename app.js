@@ -1,22 +1,34 @@
+document.addEventListener('DOMContentLoaded', () => {
+  registerServiceWorker();
+});
+
 const registerServiceWorker = async () => {
   if ('serviceWorker' in navigator) {
     try {
       const registration = await navigator.serviceWorker.register('https://jean-emmery.github.io/web_mobile_tp1/sw.js', {
-        scope: '/',
+        scope: 'https://jean-emmery.github.io/web_mobile_tp1/',
       });
       if (registration.installing) {
-        console.log('Service worker installing');
+        console.log('Installation du service worker en cours');
       } else if (registration.waiting) {
-        console.log('Service worker installed');
+        console.log('Service worker installé');
       } else if (registration.active) {
-        console.log('Service worker active');
+        console.log('Service worker actif');
       }
     } catch (error) {
-      console.error(`Registration failed with ${error}`);
+      console.error(`L'enregistrement a échoué : ${error}`);
     }
   }
 };
 
-// …
+function updateOnlineStatus() {
+  const status = document.getElementById('status');
 
-registerServiceWorker();
+  var condition = navigator.onLine ? 'online' : 'offline';
+
+  status.className = condition;
+  status.innerHTML = condition.toUpperCase();
+}
+updateOnlineStatus();
+window.addEventListener('online', updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
