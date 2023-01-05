@@ -8,7 +8,7 @@ self.addEventListener('install', (event) => {
     addResourcesToCache([
       '/web_mobile_tp1/',
       '/web_mobile_tp1/index.html',
-      '/web_mobile_tp1/index.css',
+      '/web_mobile_tp1/style.css',
       '/web_mobile_tp1/app.js',
       '/web_mobile_tp1/logo.png',
     ])
