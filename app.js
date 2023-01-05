@@ -2,7 +2,7 @@ const registerServiceWorker = async () => {
   if ('serviceWorker' in navigator) {
     try {
       const registration = await navigator.serviceWorker.register('https://jean-emmery.github.io/web_mobile_tp1/', {
-        scope: '/',
+        scope: 'https://jean-emmery.github.io/web_mobile_tp1/',
       });
       if (registration.installing) {
         console.log('Installation du service worker en cours');
