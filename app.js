@@ -9,7 +9,7 @@ const registerServiceWorker = async () => {
       } else if (registration.waiting) {
         console.log('Service worker installé');
       } else if (registration.active) {
-        console.log('Service worker actif');
+        console.log('Service worker actif ');
       }
     } catch (error) {
       console.error(`L'enregistrement a échoué : ${error}`);
