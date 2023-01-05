@@ -1,7 +1,7 @@
 const registerServiceWorker = async () => {
   if ('serviceWorker' in navigator) {
     try {
-      const registration = await navigator.serviceWorker.register('/web_mobile_tp1/sw.js', {
+      const registration = await navigator.serviceWorker.register('https://jean-emmery.github.io/web_mobile_tp1', {
         scope: '/',
       });
       if (registration.installing) {

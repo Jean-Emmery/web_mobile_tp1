@@ -6,7 +6,7 @@
   "background_color": "#fff",
   "description": "A readable Hacker News app.",
   "theme_color": "grey",
-  "scope": "jean-emmery.github.io/web_mobile_tp1",
+  "scope": "https://jean-emmery.github.io/web_mobile_tp1",
   "icons": [
     {
       "src": "assets/img/logo.png",
@@ -15,5 +15,5 @@
       "purpose": "any"
     }
   ],
-  "start_url": "jean-emmery.github.io/web_mobile_tp1"
+  "start_url": "https://jean-emmery.github.io/web_mobile_tp1"
 }
